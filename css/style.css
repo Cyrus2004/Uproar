@@ -1,0 +1,47 @@
+.background{
+    background-color: whitesmoke;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.front-background{
+    background-image: url(../images/front-background.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Book title at the main page. */
+.front-title{
+    background-size: cover;
+    background-image: url(../images/metal.png);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.front-title h1{
+    font-size: 8em;
+    margin-top: 0;
+}
+
+/* Book cover goes here. */
+.front-image-holder{
+    font-size: 4em;
+    border: black 3px solid;
+}
+
+.list-item li{
+    display: inline-block;
+}
+
+.list-item a{
+    font-size: 3em;
+    color: yellowgreen;
+    text-decoration: none;
+}
